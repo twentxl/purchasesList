@@ -1,0 +1,25 @@
+.header {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo span {
+    font-size: 30px;
+    font-family: 'Nunito-Bold', sans-serif;
+    background: linear-gradient(to right, var(--main-color), #fa7bfe);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    user-select: none;
+}

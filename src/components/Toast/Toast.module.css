@@ -1,0 +1,22 @@
+.toast {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.toast[data-variant="success"] {
+    background-color: green;
+}
+.toast[data-variant="error"] {
+    background-color: red;
+}

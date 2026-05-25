@@ -1,0 +1,25 @@
+.item {
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #f0f2f2;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+.deleteBtn svg {
+    fill: #e55e5e;
+    transition: 0.2s fill;
+}
+.deleteBtn:hover svg {
+    fill: #fb0000;
+}

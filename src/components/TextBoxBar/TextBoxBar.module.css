@@ -1,0 +1,39 @@
+.textBoxBar {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.textBox {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+.textBox:focus {
+    border-bottom-color: var(--main-color);
+}
+
+.button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: bold;
+    width: 50px;
+    transition: 0.2s color;
+
+    position: absolute;
+}
+.button:hover {
+    color: var(--main-color);
+}
+
+.addBtn {
+    right: 0;
+    background: linear-gradient(to right, var(--main-color), #fa7bfe);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

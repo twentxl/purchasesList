@@ -1,0 +1,53 @@
+:root {
+  --main-color: #00a19a;
+  --black-color: #1c1c1c;
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('./assets/Nunito-Regular.ttf');
+}
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url('./assets/Nunito-Bold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Nunito-Regular', sans-serif;
+  color: var(--black-color);
+}
+
+h1,h2,h3,h4,h5,h6,b {
+  font-family: 'Nunito-Bold', sans-serif;
+}
+
+body {
+  font-size: 18px;
+}
+
+.container {
+  max-width: 60%;
+  margin: auto;
+}
+@media only screen and (min-width: 2000px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+.purchaseBlock {
+  margin: 30px 0;
+}
+
+.nullList {
+  font-size: 14px;
+  color: #7d7d7d;
+}
