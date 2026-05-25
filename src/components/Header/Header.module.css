@@ -23,3 +23,12 @@
     color: transparent;
     user-select: none;
 }
+
+@media (max-width: 600px) {
+    .logo {
+        width: 100%;
+    }
+    .logo span {
+        font-size: 20px;
+    }
+}
