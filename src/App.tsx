@@ -18,7 +18,6 @@ const App = () => {
 
     do {
       pass = prompt("Enter password");
-      if (pass === null) return;
     } while (pass !== "пердун");
   };
 
