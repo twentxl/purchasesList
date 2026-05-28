@@ -18,7 +18,7 @@ const App = () => {
 
     do {
       pass = prompt("Enter password");
-    } while (pass !== "пердун");
+    } while (pass !== "Пердун");
   };
 
   useEffect(() => {

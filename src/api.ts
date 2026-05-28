@@ -1,4 +1,4 @@
-const api = "https://6a1453306c7db8aac0544c30.mockapi.io/api/purchases/items";
+const api = "https://6a18610f1878294b597d027e.mockapi.io/api/purchases/items";
 
 export const addItem = async(text: string) => {
     if (text == undefined || text == null || text == "" || text == " ") {
